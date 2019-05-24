@@ -1,0 +1,35 @@
+{
+  "name": "sus-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasHubelbauer/sus-downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasHubelbauer/sus-downloader/issues"
+  },
+  "homepage": "https://github.com/TomasHubelbauer/sus-downloader#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0",
+    "@types/node-fetch": "^2.3.4",
+    "@types/pretty-bytes": "^5.1.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/plist": "^3.0.2",
+    "fs-extra": "^8.0.1",
+    "node-fetch": "^2.6.0",
+    "plist": "^3.0.1",
+    "pretty-bytes": "^5.2.0"
+  }
+}
